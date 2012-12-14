@@ -1,5 +1,7 @@
 # Cordcutter::Chef
 
+Total work in progress. Doesnt' really work at all, yet.
+
 Chef configuration for installing:
 
  * sabnzbd+
