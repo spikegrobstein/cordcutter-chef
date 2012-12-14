@@ -1,0 +1,11 @@
+user 'spike'
+
+cookbook_path File.join( File.dirname(__FILE__), 'cookbooks')
+
+map_hostname do |h|
+  {
+    :role => 'downloader',
+    :serial => '001',
+    :environment => 'production'
+  }
+end
