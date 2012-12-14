@@ -27,7 +27,7 @@ if node.os == 'linux'
     end
 
     service 'sabnzbdplus' do
-      action :enable
+      action :start
     end
 
   end
